@@ -1,0 +1,51 @@
+###########################################
+#                              #
+#   AltLimiter - Config File   #
+#                              #
+#     Developed by SherRao     #
+#                              #  
+################################
+#
+#
+# <--- Anything with this before it means it is a comment, it can be changed to your liking
+# You can even add your own comments!
+#
+# Color codes ( the '&' symbol ) can be used for formatting
+# You can learn the color codes here: https://minecraft.gamepedia.com/Formatting_codes
+# You can find a list of all usable sounds for Bukkit here: https://github.com/Bukkit/Bukkit/blob/master/src/main/java/org/bukkit/Sound.java
+#
+
+# Should AltLimiter be enabled?
+#  (true/false)
+enabled: true
+
+
+# Maximum amount of accounts allowed per IP
+max-alts-per-ip: 2
+
+
+# Message to use when kicking people
+# (Check placeholders.yml for placeholders)
+kick-messages: 
+    - "&bYou have passed the cap for accounts per IP address! &6&o[max-alt-amount] per IP"
+    - "&bThis account &6&o([username]) &bhas been banned!"
+    - ""
+    - "&bAllowed Accounts: &6[allowed-accounts-names]"
+    - "&bDenied Accounts: &6[denied-accounts-names]"    
+    
+
+# Announce to the server that an alt has been banned
+announcements:
+
+    # Should the server announce an alt-ban?
+    #  (true/false)
+    enabled: true 
+    
+    # The messages that should be announced
+    announcement: 
+        - "&4==============================================="
+        - "&6Player &4[username] &6has been banned for using an alt!"
+        - "&bAllowed Accounts: &6[allowed-accounts-names]"
+        - "&bDenied Accounts: &6[denied-accounts-names]"
+        - "&4==============================================="
+       

@@ -1,0 +1,8 @@
+name: AltLimiter
+version: 1.0.10
+description: Limits the amount of accounts connecting per IP
+author: SherRao
+
+main: tk.sherrao.bukkit.altlimiter.AltLimiter
+prefix: AltLimiter
+database: false
